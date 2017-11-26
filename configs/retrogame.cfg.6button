@@ -10,18 +10,18 @@
 
 # Here's a 6-button configuration:
 
-LEFT      10  # Joypad left
-RIGHT     22  # Joypad right
-UP        23  # Joypad up
-DOWN      27  # Joypad down
-LEFTCTRL   4  # 'A' button
-LEFTALT   25  # 'B' button
-Z         11  # 'X' button
-X          5  # 'Y' button
+LEFT      13  # Joypad left
+RIGHT     7  # Joypad right
+UP        11  # Joypad up
+DOWN      12  # Joypad down
+LEFTCTRL   40  # 'A' button
+LEFTALT   38  # 'B' button
+Z         35  # 'X' button
+X          33  # 'Y' button
 GND        6  # Spare ground point for 'Y' button
-SPACE     16  # 'Select' button
-ENTER     26  # 'Start' button
-ESC    16 26  # Hold Start+Select to exit ROM
+SPACE     36  # 'Select' button
+ENTER     37  # 'Start' button
+ESC    36 37  # Hold Start+Select to exit ROM
 
 # For configurations with few buttons (e.g. Cupcade), a key can be followed
 # by multiple pin numbers.  When those pins are all held for a few seconds,
